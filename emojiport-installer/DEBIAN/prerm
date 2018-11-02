@@ -2,8 +2,6 @@
 
 echo "Restoring Default Font File"
 cp -a /var/mobile/Documents/EmojiPortInstaller/backup/AppleColorEmoji@2x.ttc /System/Library/Fonts/Core
-mv -t /System/Library/Fonts/Core/AppleColorEmoji@2x.ttf /var/mobile/Documents/EmojiPortInstaller
-cp -a /var/mobile/Documents/EmojiPortInstaller/backup/AppleColorEmoji@2x.ttf /System/Library/Fonts/Core
 echo "Restore Complete"
 killall -9 discoveryd
 killall -9 mDNSResponder
